@@ -1,0 +1,38 @@
+{{#if success_msg}}
+ <div class="alert alert-success shadow-lg rounded">
+    <strong><i class="fas fa-thumbs-up"></i>  {{success_msg}}</strong> 
+    
+  </div>
+{{/if}}
+
+
+{{#if error_msg}}
+ <div class="alert alert-danger">
+    <strong>{{error_msg}}</strong> 
+  </div>
+{{/if}}
+
+{{#each errors}}
+
+ <div class="alert jumbotron a alert-danger border border-danger shadow-lg rounded">
+    <strong> <i class="fas fa-exclamation-triangle"></i> {{u_name_text}} </strong> 
+    
+ </div>
+  {{else}}
+  
+
+
+{{/each}}
+
+
+{{#each errors}}
+
+ <div class="alert  alert-danger ">
+    <strong> <i class="fas fa-exclamation-triangle"></i> {{pwd_text}} </strong> 
+    
+ </div>
+  {{else}}
+  
+
+
+{{/each}}

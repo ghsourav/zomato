@@ -1,0 +1,107 @@
+/*--Degisgn by ghsourav--*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+    line-height: 1.1em;
+    margin: calc(2rem - .05em) 0 1rem;
+    font-weight: 600;
+}
+.placeholder_restudent{
+    height: 6rem;
+}
+.gold-pricing{
+    height: 30rem;
+}
+.gold-pricing main{
+    justify-content: center;
+    width: 70%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.active2{
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: none;
+    border: none;
+    vertical-align: baseline;
+    background: #df090960 none;
+}
+#nav{
+  height: 200px;
+    background-color: #ffffff;
+    
+}
+.notify{
+    background: radial-gradient(40% 50px at center,#a37320,#efea7e,#a37320);
+    padding-bottom: 3px;
+}
+.head-alert{
+    background: #33373d;
+    color: #d8c65f;
+    padding: 10px;
+    margin: 0;
+}
+.head-alert strong img{
+    height: 32px;
+    vertical-align: middle;
+}
+.minimenu{
+    height: 30px;
+    width: 100%;
+    /*box-shadow: 10px 20px 20px 20px grey;*/
+    
+}
+.minimenu article {
+    float: left;
+}
+.minimenu main {
+    float: right;
+}
+.minimenu main ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.icon1{
+    height: 28px;
+    
+}
+.minimenu a{
+    padding: 0px 0px 0px 4px;
+    height: 100%;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 300;
+    color: #33373d;
+}
+.minimenu a:hover{
+    background: rgba(247, 247, 6, 0.432) !important;
+    height: 20px;
+    width: 30px;
+    text-decoration: none;
+}
+.head-alert a{
+    background: radial-gradient(90% 50px at right,#a37320,#efea7e,#a37320);
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    -webkit-background-clip: text;
+    
+}
+.head-alert a:hover{
+    background: radial-gradient(90% 50px at right,#a37320,#efea7e,#a37320);
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    -webkit-background-clip: text;
+   
+    
+}
